@@ -1,0 +1,28 @@
+{
+  "name": "nfcfake",
+  "version": "0.1.0",
+  "author": "Tim von Oldenburg <tim@tvooo.de>",
+  "description": "NFCFake",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tvooo/rapid.git"
+  },
+  "keywords": [
+    "rapid",
+    "prototyping",
+    "web app"
+  ],
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "prompt": "~0.2.12"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt": "~0.4.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

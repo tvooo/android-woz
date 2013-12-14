@@ -1,0 +1,22 @@
+{
+  "name": "nfcfake",
+  "version": "0.0.0",
+  "authors": [
+    "Tim von Oldenburg <tim@tvooo.de>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fries": "~2.0.3",
+    "jquery": "~2.0.3",
+    "socket.io": "~0.9.15",
+    "socket.io-client": "~0.9.16"
+  }
+}

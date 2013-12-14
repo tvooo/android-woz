@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <title>Evoke</title>
+
+  <link rel="shortcut icon" href="favicon.png" />
+
+  <link rel="stylesheet" href="bower_components/fries/dist/themes/holo-dark/holo-dark.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+  <script src="bower_components/socket.io-client/dist/socket.io.js"></script>
+  <script src="bower_components/jquery/jquery.js"></script>
+  <!-- For demo purposes only -->
+  <style type="text/css">
+  body {
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  h1.intro {
+    font-weight: 200;
+    margin: 0.2em 0;
+  }
+
+  p {
+    color: #999;
+    margin-bottom: 1em;
+  }
+
+  .center-me {
+    text-align: center;
+  }
+
+  .list i[class*="icon-"] {
+    float: left;
+    font-size: 36px;
+    color: #999;
+  }
+  .i-class {
+    float: left;
+    line-height: 36px;
+    margin-left: 8px;
+  }
+  .footnote {
+    display: block;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    color: #222;
+    font-size: 11px;
+  }
+  .icon-logo {
+    background: url(evoke-ico.png) no-repeat center center;
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <header class="action-bar fixed-top">
+      <a href="javascript: void(0);" class="app-icon action" data-ignore="true">
+        <i class="icon-logo"></i>
+      </a>
+      <h1 class="title">Evoke</h1>
+      <ul class="actions pull-right" data-overflow="false">
+        <li><a href="settings.html" class="action" title="Settings" data-transition="push"><i class="icon-settings"></i></a></li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <div style="width:100%;height:100%;background:url(evoke-a-01.png) no-repeat center center;background-size:cover;"></div>
+    </div>
+
+  </div>
+
+
+  <script src="bower_components/fries/dist/fries.min.js"></script>
+
+  <script src="js/fingerblast.js"></script>
+
+  <script src="js/example.js"></script>
+  <script src="js/script.js"></script>
+
+  <div style="display:none">
+    <a href="item1.html" data-transition="push" id="1"></a>
+    <a href="item2.html" data-transition="push" id="2"></a>
+    <a href="settings.html" data-transition="push" id="s"></a>
+    <a href="index.html" data-transition="push" id="i"></a>
+    <a href="loading.html" data-transition="push" id="l"></a>
+  </div>
+</body>
+</html>
